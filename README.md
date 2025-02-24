@@ -7,7 +7,7 @@
 * Implement sensors to monitor the house (temperature, lighting level...)
 
 ## Design 
-* Wood CNC machine for the house structure
+* Wood cut with laser cutter for the house structure
 * Details and actuatable parts 3D printed
 * Design idea similar to a doll house but with structure adapted to resemble a real home that could house a small animal (hamster, rat)
 <table>
