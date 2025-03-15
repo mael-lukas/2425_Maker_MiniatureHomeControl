@@ -8068,6 +8068,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0531ac7d-10a1-4279-a342-2857ea3edf2f")
+		(property "Reference" "#PWR052"
+			(at 87.63 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 87.376 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 87.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a657abd0-4b8c-4996-a898-9f9182735d62")
+		)
+		(instances
+			(project ""
+				(path "/b74be9fd-31f1-41bd-b07a-025b9cc1bd78"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 134.62 0)
 		(unit 1)
@@ -8627,71 +8692,6 @@
 			(project "PCB_main_unit"
 				(path "/b74be9fd-31f1-41bd-b07a-025b9cc1bd78"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 87.63 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15e973f4-c742-4106-9dd9-30926e0f49b5")
-		(property "Reference" "#PWR052"
-			(at 87.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 87.376 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ae37c44-6471-4889-bc7a-9c7342aa14f9")
-		)
-		(instances
-			(project "PCB_main_unit"
-				(path "/b74be9fd-31f1-41bd-b07a-025b9cc1bd78"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -15014,7 +15014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mylib:472123010111"
+		(property "Footprint" "maker:power_switch"
 			(at 97.79 176.53 0)
 			(effects
 				(font
