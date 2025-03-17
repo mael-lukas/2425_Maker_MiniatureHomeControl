@@ -770,7 +770,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 115.57 93.9799 0)
 			(effects
 				(font
@@ -779,7 +779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 112.7252 96.52 0)
 			(effects
 				(font
@@ -871,7 +871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7373b70a-e213-4937-9055-9ff982063b54")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR012"
 			(at 127 77.47 0)
 			(effects
 				(font
@@ -985,7 +985,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 119.38 81.28 90)
 			(effects
 				(font
@@ -993,7 +993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 119.38 86.868 90)
 			(effects
 				(font
@@ -1200,7 +1200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 129.54 80.0099 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 125.222 78.74 90)
 			(effects
 				(font
@@ -1319,7 +1319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "maker:botan"
 			(at 127 92.71 0)
 			(effects
 				(font
