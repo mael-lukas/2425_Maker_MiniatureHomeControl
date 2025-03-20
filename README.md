@@ -1,4 +1,4 @@
-# Miniature Home Automation
+# Miniature Home Control
 #### 2025 Maker Project
 
 ## Goals
