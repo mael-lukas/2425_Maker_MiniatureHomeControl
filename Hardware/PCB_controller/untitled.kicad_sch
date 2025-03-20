@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3ee2161b-d50d-4975-9cb7-4fa90e0f0d3e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -261,10 +266,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -394,12 +402,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -471,7 +484,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -483,7 +496,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -514,12 +527,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -610,6 +628,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -761,7 +780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e6292b-c6bc-47ff-b994-d808ad8a1537")
-		(property "Reference" "C9"
+		(property "Reference" "C19"
 			(at 115.57 91.4399 0)
 			(effects
 				(font
@@ -871,7 +890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7373b70a-e213-4937-9055-9ff982063b54")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR08"
 			(at 127 77.47 0)
 			(effects
 				(font
@@ -977,7 +996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75bc6750-f515-4516-bf94-6271f77ac736")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 119.38 78.74 90)
 			(effects
 				(font
@@ -1085,7 +1104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5871114-2f2e-42e7-8dd1-3fb270a01c29")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR041"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -1191,7 +1210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db09721f-2cdb-4a8d-9972-7e826662be89")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 129.54 77.4699 0)
 			(effects
 				(font
@@ -1301,7 +1320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc06dbed-df72-4302-8aca-9de26d46d1f1")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 129.54 91.4399 90)
 			(effects
 				(font
