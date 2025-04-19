@@ -1,0 +1,2 @@
+../Core/Src/servos.c:10:6:servoInit	24	static
+../Core/Src/servos.c:20:6:turnServo	16	static
