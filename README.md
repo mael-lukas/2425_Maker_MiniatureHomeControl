@@ -80,5 +80,4 @@ I did not have the time to finish the project so only the house, the PCBs and th
 
 ### Short video
 
-Here is a short video (in French) to sum up the project and my views on the Maker option
-[Watch the video](https://www.youtube.com/watch?v=WIeOZKU2mvY&t=1s)
+Here is a short [video](https://www.youtube.com/watch?v=WIeOZKU2mvY&t=1s) (in French) to sum up the project and my views on the Maker option
